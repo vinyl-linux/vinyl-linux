@@ -1,1 +1,8 @@
-theme: jekyll-theme-minimal
+remote_theme: excentris/compass
+
+compass:
+  logo: "/images/logo/png"
+  author: "vinyl linux"
+  tagline: "yet another linux distro."
+  include_analytics: false
+  twitter: "zerointernet"
