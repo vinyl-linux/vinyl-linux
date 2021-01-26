@@ -1,1 +1,3 @@
-# vinyl-linux
+# Vinyl Linux
+
+yet another linux distro.
