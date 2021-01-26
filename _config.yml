@@ -1,8 +1,22 @@
 remote_theme: excentris/compass
 
+url: https://vinyl-linux.github.io
+baseurl: ''
+
 compass:
-  logo: "/images/logo/png"
+  logo: "/images/logo-trimmed-small.png"
   author: "vinyl linux"
   tagline: "yet another linux distro."
   include_analytics: false
+  include_content: true
   twitter: "zerointernet"
+
+# exclude
+exclude: ["CNAME", "Gemfile", "Gemfile.lock", "LICENSE", "README.md"]
+
+# Dependencies
+markdown: kramdown
+highlighter: rouge
+
+# Permalinks
+permalink: pretty
